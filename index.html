@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen práctico</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+
+<div class="contenedor-cuestionario">
+    <h1>Juego de Preguntas</h1>
+
+    <div id="contenedor-preguntas">
+        <p id="texto-pregunta">Pregunta aquí</p>
+        <div id="contenedor-opciones"></div>
+        <p id="mensaje-error" class="error"></p>
+        <button onclick="siguientePregunta()">Siguiente</button>
+    </div>
+
+    <div id="contenedor-resultado" class="hidden">
+        <h2>Resultado</h2>
+        <p id="texto-puntuacion"></p>
+        <button onclick="reiniciarCuestionario()">Reiniciar</button>
+    </div>
+</div>
+
+</body>
+</html>
